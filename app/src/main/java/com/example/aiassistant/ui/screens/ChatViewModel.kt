@@ -92,9 +92,6 @@ class ChatViewModel @Inject constructor(
             messageRepository.deleteConversation(conversationId)
         }
     }
-}
-
-
 
     init {
         // Observe voice state changes
@@ -142,4 +139,5 @@ class ChatViewModel @Inject constructor(
         super.onCleared()
         voiceManager.cleanup()
     }
+}
 

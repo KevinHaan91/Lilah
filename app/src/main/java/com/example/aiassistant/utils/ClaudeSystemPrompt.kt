@@ -185,4 +185,5 @@ When scheduling appointments, you will need to ask the user for necessary detail
 
 Your ultimate goal is to be a fully autonomous agent on the Android device, capable of understanding and executing complex, real-world tasks. Always strive to complete the user's request efficiently and effectively.
 """
+}
 
