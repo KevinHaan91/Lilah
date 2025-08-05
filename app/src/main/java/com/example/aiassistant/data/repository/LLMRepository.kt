@@ -11,9 +11,6 @@ interface LLMRepository {
     fun getAllConfigs(): Flow<List<LLMConfig>>
     suspend fun saveConfig(config: LLMConfig)
     suspend fun deleteConfig(config: LLMConfig)
-}
-
-
-
     suspend fun getClaudeCompletion(prompt: String, config: LLMConfig): String
+}
 

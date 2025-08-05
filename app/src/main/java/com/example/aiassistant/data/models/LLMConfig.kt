@@ -10,6 +10,7 @@ data class LLMConfig(
     val name: String,
     val type: LLMType,
     val modelPath: String? = null, // For local models
+    val modelName: String? = null, // For remote model names (e.g., "claude-sonnet-3.5-20240620")
     val apiEndpoint: String? = null, // For remote models
     val apiKey: String? = null, // For remote models
     val isActive: Boolean = false,

@@ -15,10 +15,11 @@ import com.google.mediapipe.tasks.genai.llminference.LlmInference
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 import javax.inject.Singleton
+import dagger.hilt.android.qualifiers.ApplicationContext
 
 @Singleton
 class LLMRepositoryImpl @Inject constructor(
-    private val context: Context,
+    @ApplicationContext private val context: Context,
     private val llmConfigDao: LLMConfigDao,
     private val openAIService: OpenAIService,
     private val claudeService: ClaudeService
@@ -164,9 +165,6 @@ class LLMRepositoryImpl @Inject constructor(
     override suspend fun deleteConfig(config: LLMConfig) {
         llmConfigDao.deleteConfig(config)
     }
-}
-
-
 
     override suspend fun getClaudeCompletion(prompt: String, config: LLMConfig): String {
         return try {
@@ -192,5 +190,6 @@ class LLMRepositoryImpl @Inject constructor(
             throw Exception("Claude API error: ${e.message}")
         }
     }
+}
 
 

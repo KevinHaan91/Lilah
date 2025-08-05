@@ -15,6 +15,7 @@ import android.provider.ContactsContract
 import android.provider.MediaStore
 import android.provider.Settings
 import android.view.accessibility.AccessibilityNodeInfo
+import com.example.aiassistant.services.AIAccessibilityService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
