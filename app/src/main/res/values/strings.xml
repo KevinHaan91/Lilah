@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lilah AI Assistant</string>
+    <string name="chat_hint">Type your message here...</string>
+    <string name="send">Send</string>
+    <string name="settings">Settings</string>
+    <string name="model_selection">Model Selection</string>
+    <string name="local_model">Local Model</string>
+    <string name="remote_model">Remote Model</string>
+    <string name="api_key">API Key</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_loading_model">Error loading model</string>
+    <string name="error_generating_response">Error generating response</string>
+    <string name="model_loading">Loading model...</string>
+    <string name="thinking">Thinking...</string>
+    
+    <!-- Voice-related strings -->
+    <string name="voice_input">Voice Input</string>
+    <string name="listening">Listening...</string>
+    <string name="processing_speech">Processing speech...</string>
+    <string name="speak_now">Speak now</string>
+    <string name="voice_activation">Voice Activation</string>
+    <string name="hotword_detection">Hotword Detection</string>
+    <string name="hey_assistant">Hey Assistant</string>
+    
+    <!-- Phone control strings -->
+    <string name="phone_control">Phone Control</string>
+    <string name="accessibility_required">Accessibility service required for phone control</string>
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="accessibility_service_description">AI Assistant uses accessibility service to control your phone when requested. This allows features like taking screenshots, tapping buttons, and automating tasks.</string>
+    
+    <!-- Permissions -->
+    <string name="permission_microphone">Microphone permission is required for voice input</string>
+    <string name="permission_phone">Phone permission is required to make calls</string>
+    <string name="permission_sms">SMS permission is required to send messages</string>
+    <string name="permission_camera">Camera permission is required to take photos</string>
+</resources>
+
