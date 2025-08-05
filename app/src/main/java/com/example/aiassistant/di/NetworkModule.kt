@@ -43,9 +43,6 @@ object NetworkModule {
     fun provideOpenAIService(retrofit: Retrofit): OpenAIService {
         return retrofit.create(OpenAIService::class.java)
     }
-}
-
-
 
     @Provides
     @Singleton
@@ -62,5 +59,6 @@ object NetworkModule {
     fun provideClaudeService(claudeRetrofit: Retrofit): ClaudeService {
         return claudeRetrofit.create(ClaudeService::class.java)
     }
+}
 
 
